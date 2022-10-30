@@ -1,0 +1,18 @@
+$navColor: black;
+$bgColor:white;
+span {
+    color: $navColor;
+}
+
+.Nav-container {
+    background-color: $bgColor;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    border-bottom: 1px solid white;
+}
